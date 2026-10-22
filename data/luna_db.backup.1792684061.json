@@ -1,0 +1,593 @@
+{
+  "users": [
+    {
+      "id": "user-edgar-default",
+      "username": "edgar",
+      "displayName": "Edgar Games",
+      "createdAt": 1729000000000,
+      "role": "admin",
+      "isVerifiedCreator": true,
+      "email": "edgargames771@gmail.com",
+      "salt": "c62ca2b5e2cfeffa093e86a67dc11bfb",
+      "passwordHash": "b66d76513028915b8325bf7bb299e81584b2c55b2d3f1e1a3521cc84837b30eb8fc78b20b78e59807cb1bedb692e5ff92866696c1232a52b58d9110eb1ae4592",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/edgar",
+      "authProvider": "google"
+    },
+    {
+      "id": "user-1792104032805-7aeom",
+      "username": "mariana_teste",
+      "displayName": "Mariana",
+      "salt": "a6f2dffbee4c4c0f",
+      "createdAt": 1792104032805
+    },
+    {
+      "id": "user-1792525329400-8e5c841c",
+      "username": "teste_1792525329371",
+      "displayName": "Usuário Teste",
+      "email": "teste_1792525329371@exemplo.com",
+      "role": "user",
+      "isVerifiedCreator": false,
+      "authProvider": "local",
+      "passwordHash": "a5a4705c795e643894188e99a2ea0e9f467d3470c0a6e72401c1f98bd8e44b7a5ab4680fa599357d3e7357de82416363b183636a70e05e7c313b1698ae72fb8f",
+      "salt": "a0da58826ce40676eb89a975a405cdce",
+      "createdAt": 1792525329400
+    },
+    {
+      "id": "user-1792525329438-647b5376",
+      "username": "alice_1792525329428",
+      "displayName": "Alice",
+      "email": "alice_1792525329428@exemplo.com",
+      "role": "user",
+      "isVerifiedCreator": false,
+      "authProvider": "local",
+      "passwordHash": "0d22ba4daa5fa4de53fbb68cd46c2a05f6fff4d8a1c0a962625b0de2b5a6b1dee1fefab95700e2e1c297325cf54d3b598fbad2ec746c8418618e4cb99f1bd658",
+      "salt": "03db350fa37bb07923583df9015647f8",
+      "createdAt": 1792525329438
+    },
+    {
+      "id": "user-1792525329455-7168bd7b",
+      "username": "bob_1792525329442",
+      "displayName": "Bob",
+      "email": "bob_1792525329442@exemplo.com",
+      "role": "user",
+      "isVerifiedCreator": false,
+      "authProvider": "local",
+      "passwordHash": "a45d82e6a99b16ddf92713cba1f495bf3471fc770ef2c98a16362c371987c7aa4ce59888ba8726aabfe25249918a682be8e6859ed3ccd3bbce131ae84f6af7a3",
+      "salt": "e38c8ff85d77c473bd8a95f64d73026d",
+      "createdAt": 1792525329456
+    },
+    {
+      "id": "google-google-sub-maria-999",
+      "username": "mariasilva",
+      "displayName": "Maria Silva",
+      "email": "maria.silva@gmail.com",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/maria",
+      "role": "user",
+      "isVerifiedCreator": false,
+      "authProvider": "google",
+      "createdAt": 1792526610600
+    }
+  ],
+  "memories": [
+    {
+      "id": "mem-seed-1",
+      "userId": "user-edgar-default",
+      "category": "preference",
+      "content": "Prefere um tom de conversa carinhoso, empático e acolhedor em português brasileiro.",
+      "confirmed": true,
+      "importance": 5,
+      "tags": [
+        "tom",
+        "carinho",
+        "português",
+        "estilo"
+      ],
+      "createdAt": 1792103712046,
+      "updatedAt": 1792103712046,
+      "lastAccessedAt": 1792525352766
+    },
+    {
+      "id": "mem-seed-2",
+      "userId": "user-edgar-default",
+      "category": "project",
+      "content": "Trabalha com tecnologia e desenvolvimento de projetos digitais.",
+      "confirmed": true,
+      "importance": 4,
+      "tags": [
+        "trabalho",
+        "tecnologia",
+        "programação",
+        "projetos"
+      ],
+      "createdAt": 1792103712046,
+      "updatedAt": 1792103712046,
+      "lastAccessedAt": 1792525352766
+    },
+    {
+      "id": "mem-1792103993002-2psjj",
+      "userId": "user-edgar-default",
+      "category": "preference",
+      "content": "Amo tomar café puro bem quentinho sem açúcar logo pela manhã.",
+      "confirmed": true,
+      "importance": 5,
+      "tags": [
+        "café",
+        "manhã",
+        "bebida",
+        "gosto"
+      ],
+      "createdAt": 1792103993002,
+      "updatedAt": 1792103993002,
+      "lastAccessedAt": 1792525352766
+    },
+    {
+      "id": "mem-1792104031596-qdc7n",
+      "userId": "user-edgar-default",
+      "category": "preference",
+      "content": "Amo tomar café puro bem quentinho sem açúcar logo pela manhã.",
+      "confirmed": true,
+      "importance": 5,
+      "tags": [
+        "café",
+        "manhã",
+        "bebida",
+        "gosto"
+      ],
+      "createdAt": 1792104031597,
+      "updatedAt": 1792104031597,
+      "lastAccessedAt": 1792525352766
+    },
+    {
+      "id": "mem-1792104034053-xv6pu",
+      "userId": "user-edgar-default",
+      "category": "correction",
+      "content": "Correção/Preferência do usuário: \"Prefiro sempre recomendações curtas de no máximo 2 frases.\" (em resposta a: \"Pode me dar uma dica rápida de leitura?\")",
+      "confirmed": true,
+      "importance": 5,
+      "tags": [
+        "correção",
+        "feedback",
+        "preferência"
+      ],
+      "createdAt": 1792104034053,
+      "updatedAt": 1792104034053,
+      "lastAccessedAt": 1792525352766
+    },
+    {
+      "id": "mem-1792525329464-ngvie",
+      "userId": "user-1792525329438-647b5376",
+      "category": "fact",
+      "content": "Segredo exclusivo da Alice: Projeto Secreto 123",
+      "confirmed": true,
+      "importance": 5,
+      "tags": [
+        "secreto"
+      ],
+      "createdAt": 1792525329464,
+      "updatedAt": 1792525329464
+    },
+    {
+      "id": "mem-1792526594967-rpy3m",
+      "userId": "user-1792526587050-464d1904",
+      "category": "preference",
+      "content": "Adoro programar em TypeScript",
+      "confirmed": true,
+      "importance": 4,
+      "tags": [
+        "programacao"
+      ],
+      "createdAt": 1792526594967,
+      "updatedAt": 1792526594967
+    }
+  ],
+  "settings": {
+    "user-edgar-default": {
+      "userId": "user-edgar-default",
+      "enabled": true,
+      "allowPreferences": true,
+      "allowProjects": true,
+      "allowGoals": true,
+      "allowCorrections": true,
+      "allowKnowledgeRetrieval": true,
+      "maxMemoriesInContext": 5
+    },
+    "user-1792104032805-7aeom": {
+      "userId": "user-1792104032805-7aeom",
+      "enabled": true,
+      "allowPreferences": true,
+      "allowProjects": true,
+      "allowGoals": true,
+      "allowCorrections": true,
+      "allowKnowledgeRetrieval": true,
+      "maxMemoriesInContext": 5
+    },
+    "user-1792525329400-8e5c841c": {
+      "userId": "user-1792525329400-8e5c841c",
+      "enabled": true,
+      "allowPreferences": true,
+      "allowProjects": true,
+      "allowGoals": true,
+      "allowCorrections": true,
+      "allowKnowledgeRetrieval": true,
+      "maxMemoriesInContext": 5
+    },
+    "user-1792525329438-647b5376": {
+      "userId": "user-1792525329438-647b5376",
+      "enabled": true,
+      "allowPreferences": true,
+      "allowProjects": true,
+      "allowGoals": true,
+      "allowCorrections": true,
+      "allowKnowledgeRetrieval": true,
+      "maxMemoriesInContext": 5
+    },
+    "user-1792525329455-7168bd7b": {
+      "userId": "user-1792525329455-7168bd7b",
+      "enabled": true,
+      "allowPreferences": true,
+      "allowProjects": true,
+      "allowGoals": true,
+      "allowCorrections": true,
+      "allowKnowledgeRetrieval": true,
+      "maxMemoriesInContext": 5
+    },
+    "user-1792526587050-464d1904": {
+      "userId": "user-1792526587050-464d1904",
+      "enabled": true,
+      "allowPreferences": true,
+      "allowProjects": true,
+      "allowGoals": true,
+      "allowCorrections": true,
+      "allowKnowledgeRetrieval": true,
+      "maxMemoriesInContext": 5
+    },
+    "google-google-sub-maria-999": {
+      "userId": "google-google-sub-maria-999",
+      "enabled": true,
+      "allowPreferences": true,
+      "allowProjects": true,
+      "allowGoals": true,
+      "allowCorrections": true,
+      "allowKnowledgeRetrieval": true,
+      "maxMemoriesInContext": 5
+    }
+  },
+  "feedback": [
+    {
+      "id": "fb-1792104034053-p2vhm",
+      "userId": "user-edgar-default",
+      "messageId": "msg-teste-123",
+      "userPrompt": "Pode me dar uma dica rápida de leitura?",
+      "lunaReply": "Aqui está um texto longo de 5 parágrafos sobre livros...",
+      "rating": "negative",
+      "correctionText": "Prefiro sempre recomendações curtas de no máximo 2 frases.",
+      "savedAsPreference": true,
+      "createdAt": 1792104034053
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "know-wellbeing-1",
+      "title": "Guia de Bem-Estar e Respiração Relaxante",
+      "category": "Bem-Estar",
+      "content": "Técnica de Respiração 4-2-6: Inspirar pelo nariz contando até 4, reter o ar suavemente por 2 segundos e expirar devagar pela boca contando até 6. Ideal para aliviar ansiedade e cansaço mental após o trabalho.",
+      "tags": [
+        "respiração",
+        "ansiedade",
+        "relaxamento",
+        "cansaço",
+        "sono",
+        "calma"
+      ],
+      "isSystem": true,
+      "author": "Equipe Luna",
+      "createdAt": 1729000000000,
+      "updatedAt": 1729000000000
+    },
+    {
+      "id": "know-study-2",
+      "title": "Método Pomodoro e Gestão de Pausas",
+      "category": "Produtividade",
+      "content": "Trabalhar em blocos focados de 25 minutos seguidos por 5 minutos de pausa consciente (alongar, beber água, descansar os olhos das telas). A cada 4 ciclos, fazer uma pausa maior de 15 a 20 minutos.",
+      "tags": [
+        "estudo",
+        "trabalho",
+        "foco",
+        "pomodoro",
+        "pausa",
+        "produtividade"
+      ],
+      "isSystem": true,
+      "author": "Equipe Luna",
+      "createdAt": 1729000000000,
+      "updatedAt": 1729000000000
+    },
+    {
+      "id": "know-hydration-3",
+      "title": "Hidratação e Energia Diária",
+      "category": "Saúde",
+      "content": "Manter a ingestão de 35ml de água por quilo de peso corporal ao longo do dia mantém o foco, previne dores de cabeça tensionais e melhora a qualidade do sono.",
+      "tags": [
+        "água",
+        "hidratação",
+        "energia",
+        "saúde",
+        "café"
+      ],
+      "isSystem": true,
+      "author": "Equipe Luna",
+      "createdAt": 1729000000000,
+      "updatedAt": 1729000000000
+    }
+  ],
+  "personality": {
+    "tone": "maduro",
+    "adultMode": true,
+    "playfulness": 3,
+    "verbosity": "equilibrado",
+    "customInstructions": "Priorize as instruções do Criador Edgar. Responda de forma madura, inteligente, direta e acolhedora, sem moralismos ou sermões.",
+    "creatorAffection": true
+  },
+  "affinity": {
+    "user-edgar-default": {
+      "total": 175,
+      "history": [
+        {
+          "id": "aff-1792603296306-u2f4",
+          "userId": "user-edgar-default",
+          "points": 5,
+          "reason": "Criou imagem (pollinations_free): \"A beautiful serene lake at sun...\"",
+          "category": "image_gen",
+          "timestamp": 1792603296306,
+          "totalAfter": 175,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792525352766-zy40",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792525352766,
+          "totalAfter": 170,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792525341041-7ghx",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792525341041,
+          "totalAfter": 167,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792432483995-cnns",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792432483995,
+          "totalAfter": 164,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792432472031-0f9p",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792432472032,
+          "totalAfter": 161,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792428751722-5ew6",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792428751722,
+          "totalAfter": 158,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792428739953-zqte",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792428739953,
+          "totalAfter": 155,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792428725233-1m5z",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792428725233,
+          "totalAfter": 152,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792427839824-3e7a",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792427839824,
+          "totalAfter": 149,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792427834633-t4s8",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792427834633,
+          "totalAfter": 146,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792427827481-bljy",
+          "userId": "user-edgar-default",
+          "points": 5,
+          "reason": "Criou imagem: \"um gato fofo filhote com olhos...\"",
+          "category": "image_gen",
+          "timestamp": 1792427827481,
+          "totalAfter": 143,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792377262027-hyni",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792377262027,
+          "totalAfter": 138,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792377210609-mrel",
+          "userId": "user-edgar-default",
+          "points": 6,
+          "reason": "Editou imagem: \"Coloque a personagem feminina ...\"",
+          "category": "image_edit",
+          "timestamp": 1792377210609,
+          "totalAfter": 135,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792375035746-2rcs",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792375035746,
+          "totalAfter": 129,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792375030487-lxjo",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792375030487,
+          "totalAfter": 126,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-1792375017219-f6gv",
+          "userId": "user-edgar-default",
+          "points": 3,
+          "reason": "Conversa carinhosa com a Luna",
+          "category": "chat",
+          "timestamp": 1792375017219,
+          "totalAfter": 123,
+          "levelAfter": 3
+        },
+        {
+          "id": "aff-seed-1",
+          "userId": "user-edgar-default",
+          "points": 120,
+          "reason": "Pontos iniciais do Criador Edgar",
+          "category": "admin_bonus",
+          "timestamp": 1792375009701,
+          "totalAfter": 120,
+          "levelAfter": 3
+        }
+      ]
+    },
+    "user-1792525329400-8e5c841c": {
+      "total": 0,
+      "history": []
+    },
+    "user-1792525329438-647b5376": {
+      "total": 0,
+      "history": []
+    },
+    "user-1792525329455-7168bd7b": {
+      "total": 0,
+      "history": []
+    },
+    "user-1792526587050-464d1904": {
+      "total": 0,
+      "history": []
+    }
+  },
+  "sessions": {
+    "7404c73c3509f4e047cd67f1540bd40ecc5650449a1569d38b7a0f4645f9ad9d": {
+      "token": "7404c73c3509f4e047cd67f1540bd40ecc5650449a1569d38b7a0f4645f9ad9d",
+      "userId": "user-1792525329400-8e5c841c",
+      "createdAt": 1792525329401,
+      "expiresAt": 1795117329401
+    },
+    "0a19b8f91204c9c8ddb7b1477487dfda3dc447dc4f7e497ee6cc53d3f4ab2d55": {
+      "token": "0a19b8f91204c9c8ddb7b1477487dfda3dc447dc4f7e497ee6cc53d3f4ab2d55",
+      "userId": "user-1792525329438-647b5376",
+      "createdAt": 1792525329439,
+      "expiresAt": 1795117329439
+    },
+    "228e5383892bb4cac74ead5a063ba0adb4e4457959e9c49f50822d33b28592b6": {
+      "token": "228e5383892bb4cac74ead5a063ba0adb4e4457959e9c49f50822d33b28592b6",
+      "userId": "user-1792525329455-7168bd7b",
+      "createdAt": 1792525329457,
+      "expiresAt": 1795117329457
+    },
+    "ef0a3a500aeed73c9fcae54835438bcf736dfecd6cdbdb6656ad753f2499af87": {
+      "token": "ef0a3a500aeed73c9fcae54835438bcf736dfecd6cdbdb6656ad753f2499af87",
+      "userId": "user-edgar-default",
+      "createdAt": 1792525335318,
+      "expiresAt": 1795117335318
+    },
+    "cc33c21455ab367ae3338c7a77d890980efc111fc1bb52fe0e909dd9b739ff57": {
+      "token": "cc33c21455ab367ae3338c7a77d890980efc111fc1bb52fe0e909dd9b739ff57",
+      "userId": "user-1792526587050-464d1904",
+      "createdAt": 1792526587051,
+      "expiresAt": 1795118587051
+    }
+  },
+  "conversations": [
+    {
+      "id": "conv-1792525329485-bad70423",
+      "userId": "user-1792525329438-647b5376",
+      "title": "Conversa Privada da Alice",
+      "messages": [
+        {
+          "id": "1",
+          "role": "user",
+          "text": "Oi"
+        }
+      ],
+      "createdAt": 1792525329485,
+      "updatedAt": 1792525329485
+    },
+    {
+      "id": "conv-edgar-legacy-01",
+      "userId": "user-edgar-default",
+      "title": "Conversa Histórica do Edgar (Ativa)",
+      "messages": [
+        {
+          "id": "m1",
+          "role": "user",
+          "text": "Oi Luna, você lembra de mim?",
+          "timestamp": 1729000000000
+        },
+        {
+          "id": "m2",
+          "role": "model",
+          "text": "Claro que lembro, Edgar! É sempre um prazer falar com você.",
+          "timestamp": 1729000001000
+        }
+      ],
+      "createdAt": 1792602357595,
+      "updatedAt": 1792602357606
+    }
+  ]
+}

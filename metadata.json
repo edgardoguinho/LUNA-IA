@@ -1,0 +1,8 @@
+{
+  "name": "Luna AI ❤️",
+  "description": "Sua companheira virtual carinhosa, espontânea e acolhedora com inteligência artificial real em português brasileiro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

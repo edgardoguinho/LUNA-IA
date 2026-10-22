@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#160829"/>
+      <stop offset="50%" stop-color="#240c3e"/>
+      <stop offset="100%" stop-color="#0a0514"/>
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4b91"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="moonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbcfe8"/>
+      <stop offset="100%" stop-color="#e879f9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle with safe margin -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+
+  <!-- Subtle glow aura -->
+  <circle cx="256" cy="256" r="150" fill="#f43f5e" opacity="0.18" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="110" fill="#a855f7" opacity="0.25" filter="url(#glow)"/>
+
+  <!-- Crescent Moon in background of heart -->
+  <path d="M 285 145 A 110 110 0 1 0 380 305 A 130 130 0 0 1 285 145 Z" fill="url(#moonGrad)" opacity="0.85" filter="url(#glow)"/>
+
+  <!-- Heart Icon (Safe zone centered) -->
+  <path d="M 256 385 C 256 385 145 315 145 225 C 145 170 185 135 230 135 C 248 135 256 148 256 148 C 256 148 264 135 282 135 C 327 135 367 170 367 225 C 367 315 256 385 256 385 Z" fill="url(#heartGrad)" filter="url(#glow)"/>
+
+  <!-- Sparkling stars -->
+  <path d="M 370 125 Q 370 145 390 145 Q 370 145 370 165 Q 370 145 350 145 Q 370 145 370 125 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M 140 160 Q 140 172 152 172 Q 140 172 140 184 Q 140 172 128 172 Q 140 172 140 160 Z" fill="#fbcfe8" opacity="0.8"/>
+  <circle cx="370" cy="285" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="160" cy="330" r="3.5" fill="#e879f9" opacity="0.75"/>
+</svg>
